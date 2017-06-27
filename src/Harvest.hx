@@ -10,7 +10,7 @@ class Harvest
 	{
 		var milkshake = Milkshake.boot(new Settings(1280, 720));
 
-		Milkshake.getInstance().scenes.addScene(new TitleScene());
+		//Milkshake.getInstance().scenes.addScene(PixiTiledMap TitleScene());
 		Milkshake.getInstance().scenes.addScene(new FarmScene());
 	}
 }
