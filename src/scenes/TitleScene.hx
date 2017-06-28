@@ -35,7 +35,7 @@ class TitleScene extends Scene
 
 	override public function update(deltaTime:Float):Void
 	{
-		if(Milkshake.getInstance().input.isEitherDown([Key.SPACE, Key.ENTER]))
+		if(Milkshake.getInstance().input.isEitherDown([Key.SPACEBAR, Key.ENTER]))
 		{
 			Milkshake.getInstance().scenes.changeScene('FarmScene');
 		}

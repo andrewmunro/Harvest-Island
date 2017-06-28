@@ -1,5 +1,6 @@
 package scenes;
 
+import milkshake.components.input.Key;
 import scenes.gameObjects.Player;
 import milkshake.Milkshake;
 import milkshake.math.Vector2;
@@ -32,8 +33,11 @@ class FarmScene extends Scene
 
 		addNode(player = new Player(),
 		{
-			position: new Vector2(600, 300)
+			position: new Vector2(600, 300),
+			scale: new Vector2(0.5, 0.5)
 		});
+
+		cameras.currentCamera.targetZoom = 3;
 
 		super.create();
 	}
@@ -46,17 +50,14 @@ class FarmScene extends Scene
 
 	override public function update(deltaTime:Float):Void
 	{
-		if(Milkshake.getInstance().input.isDownOnce(221) && cameras.currentCamera.targetZoom < MAX_ZOOM)
+		if(Milkshake.getInstance().input.isDownOnce(Key.CLOSED_BRACKET) && cameras.currentCamera.targetZoom < MAX_ZOOM)
 		{
 			cameras.currentCamera.targetZoom += 0.5;
 		}
 
-		if(Milkshake.getInstance().input.isDownOnce(219) && cameras.currentCamera.targetZoom > MIN_ZOOM)
+		if(Milkshake.getInstance().input.isDownOnce(Key.OPEN_BRACKET) && cameras.currentCamera.targetZoom > MIN_ZOOM)
 		{
-			trace('[ down');
 			cameras.currentCamera.targetZoom -= 0.5;
-
-			trace(cameras.currentCamera.targetZoom);
 		}
 
 		followPlayer();

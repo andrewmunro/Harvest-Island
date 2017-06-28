@@ -12,6 +12,9 @@ class WorldMap extends DisplayObject
         super('worldmap');
 
         var map = new PixiTiledMap('assets/maps/island/island.tmx');
+
+        trace(map.layers['Fringe']);
+
         displayObject.addChild(map);
     }
 }

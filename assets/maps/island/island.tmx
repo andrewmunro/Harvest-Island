@@ -202,12 +202,12 @@
    eJzlWLluVFkQrRbSjNhBhgSYcQBiEREjlgDEIJEO42AmIwU5QeQkmIjFRGaxWWY+AGjTgjbJZGPa08AzH4DwgtTNByBsGgkjUaU+Z1715b7Xry0ygqN733t3Obfq3KrqrolILcB/igowpjin2KrYojjv3ofYqdiu2KM4g/4f7p31DyuO4PmkYn1JZF7bs3i3B+MPu7l7FSOKpxGuxKRiheIHrFkHb+PbyuBruKjY7TjtUgwrLisuBX3DVWnzXac4hnl/KnY47MK4ezl8ib8VB8G5hbWtTxsP5fD2nOivOtoW+nWMr2POMHDFnZt8bdy/BTgbfoGtuWe/ZOtiDGf60XHx3ObRHwJvG2vgWJ6H574CvnWMLco55F2RdJ8YyCt8Tz6tYFw/WvrQg+cdwPx3PXA+DY1UMvjEbO3PRW2R4zxaf05qus/ZdQxnpK266flT8Px7sE83DETekdO8AzVRgR6oBX7383vRBmNfy60Txo6s++hxVPGr2VCxAeiTTj1XcF7vp+Xo2ds5T8vdwHtlMcHi2RGcgbxb4Es7Wzy+qbimGJW4nk0PiaKB51k8J+Acixe96CWM4RZ7LYbvlVRPvAv/aH+ltg+0XZB2vojlkynFhHtOXGucD4lcCPcflFQvI7DJdcUN2Gg0gzfzJeNvv3TGFGrC8/Zcya0ctIkD410YNwawH/PqtOKR4rGiqnjoxoW2Hgbf2H31MN6rwD3kHCJx3xjvYnGXfBfBd7Ou/0zbJcUc7NaNl8cIfDXqnq1f5A56ziecrcM97G6Mw8afFbcULxT3FetK+fVJyPMmzj8j7VhFO7+W/PrIw+q4taXOmi7mO/Ob3eHn4Gv6+5DBbyC4F/STnbuMtimprvweeVzNRg+cHvYpfs6x0yu3F/edy/B1jG8Nth3Heemj/si4vBxCn9herEO5l+UQjSP/xz/jvAi+Dben/zbp/G+4AR4JfGTnnQrmEkXq0IfubDEfM78MuXFN2KiMOYck1bu9X4ItmQcWnW0T9Becf3xuLXL/5iTV0AfMHwx0yHjAccZpGntPwj88T+K+N4AZ8J7A+1nYeU46tXO9gC5qzo/vnZ/CPDjkbPFO0jvAvZm7aFvqpgGe1MQs7Gv9KuZdA4rGipA7f2PF6iDWBNQQddeEXRPpzGFN8Fp0Y2hrtmHOCzFdgLf9xsqKzaaLNYrVpbY/qJMy1q6CWw2cEvCy3NOnYzeW2jlzHPyX4KMm7B/j08h47/E84G35e1DSPG53jb+nfA5nvF2C7RqS3sUn0s6thg3gvgn8FyTVCvlxrRrmd+PMfHw64O1rI4tbvCvexwnm054zwEvFNseb/WewMccl4Dvj+BexM21iNZjVv/y/oO7syrp1FntMAf68rEEaznf7FT8FNn8sqY4Y/8rSXecxbVidyxqOtfhTcDB+VazLOO35Gt4EdrN1/8La3t4fnQ6q0ln39AJb/zjse8/5b1q+rmX5u+GttGurA4rfwMXs90nS+xae6xTGMWbXJM07vXJm3GNcyxtHDRuXUxG/+7Gf3fcT4PzGfWf8WS7nXv1yW3HH+Z41ata4u9LWih8zscz9vwX/uxG+3xu+ABO0fCA=
   </data>
  </layer>
- <layer name="Fringe" width="45" height="31" visible="0">
+ <layer name="Fringe" width="45" height="31">
   <data encoding="base64" compression="zlib">
    eJzVl9lNw0AURZ8ltgr4YquAjliaYPl8DdAChCVABRB2KkBhpwK2sKQC4FgiShQ8tseMx/aVjmRLY+fO3JnnFxGRGZiVamkBFos2EaOBQGQw6N6PFmcltcbwOx50vU+neKYztsb1OmzAZq4uo9XxbjO2wfUBHMJRjt5c6RyacAlXcF2oGzu9wCu0YCohpwcPftJqFdZ+r9uGMf1nvWjtwX7P/UiEN5vzUiZRW5Qao9QarUHRftKI2qLUGKXWaCOjZ9/zprYoNUapNdrM+Hsu5m0jaotSY5Rao62M73Ax70d4gme4yOgjSb01tH/eu/947xd8izvfS7Ds6F2+VZP8e5oVx+8rY0/D90dN385QPnuapN7DZnxvT1O2HiCNqtYD2GaXt3aot9tQh62K9CJn+DyFEziuiOd7fN7BLdyUxDN5C7kL+Yf74I8+8fkB7/AGQ+zdYU/7t21YI/IWchfyD/dBoibwO1nwmSNvIXch/3AfxCopE18ibyF3If9wH8TKNhOfMq2nTSZ5yXSeTOvZn0nU83Mw78Bb1P/tUKbzlHY9k87jD20Li3Y=
   </data>
  </layer>
- <objectgroup name="Objects" visible="0">
+ <objectgroup name="Objects">
   <object id="1" name="maggots" type="location" x="435" y="74" width="155" height="99">
    <properties>
     <property name="spawncount" type="int" value="5"/>

@@ -12,7 +12,7 @@ class Player extends DisplayObject
     var graphics:Graphics;
     var input:Input;
 
-    var speed:Int = 3;
+    var speed:Int = 1;
 
     public function new()
     {
@@ -21,7 +21,7 @@ class Player extends DisplayObject
         graphics = new Graphics();
         addNode(graphics);
 
-        graphics.graphics.beginFill(Color.RED);
+        graphics.graphics.beginFill(Color.Tomato);
         graphics.graphics.drawRect(-20, -20, 40, 40);
 
         input = Milkshake.getInstance().input;
